@@ -1,0 +1,286 @@
+body{
+    /*background-color: red;*/
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: rgba(0,0,0);*/
+    background-blend-mode: darken;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.welcome{
+    font-family: 'Sriracha', cursive;
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.login, .login1{
+    text-align: center;
+}
+.login{
+    padding-top: 100px;
+    color:beige;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.login1{
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.sub{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+.signup{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(27, 4, 4);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sub2{
+    background-color: #4CAF50;
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    /*margin-left: 450px;*/
+}
+
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgb(17, 22, 84) ,rgb(162, 180, 252));
+    margin-top: 20px;
+    text-align: center;
+}
+
+.online{
+    color:wheat;
+    font-family: 'Acme', sans-serif;
+}
+
+.platform{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.start{
+    background-color:#701515;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.start>a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec{
+    margin-top: 40px;
+    width: 35%;
+}
+
+.filter{
+    padding-top: 40px;
+    width: 25%;
+}
+
+.search{
+    background-color: #1a4721;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+
+.signup1{
+    padding-top: 30px;
+    width: 45%;
+}
+body{
+    /*background-color: red;*/
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: rgba(0,0,0);*/
+    background-blend-mode: darken;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.welcome{
+    font-family: 'Sriracha', cursive;
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.login, .login1{
+    text-align: center;
+}
+.login{
+    padding-top: 100px;
+    color:beige;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.login1{
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.sub{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+.signup{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(27, 4, 4);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sub2{
+    background-color: #4CAF50;
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    /*margin-left: 450px;*/
+}
+
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgb(17, 22, 84) ,rgb(162, 180, 252));
+    margin-top: 20px;
+    text-align: center;
+}
+
+.online{
+    color:wheat;
+    font-family: 'Acme', sans-serif;
+}
+
+.platform{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.start{
+    background-color:#701515;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.start>a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec{
+    margin-top: 40px;
+    width: 35%;
+}
+
+.filter{
+    padding-top: 40px;
+    width: 25%;
+}
+
+.search{
+    background-color: #1a4721;
+    color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.signup1{
+    padding-top: 30px;
+    width: 45%;
+}
+
+.but{
+    height: 5em;
+    width: 12em;
+    border-radius: 15px;
+    background-color: #701515;
+    animation-name: example;
+    animation-duration: 6s;
+  }
+
+  @keyframes example {
+    5%   {background-color: #de413c;}
+    20%  {background-color: #6539cc;}
+    40%  {background-color: #3bd9cc;}
+    60%  {background-color: #3cde75;}
+    80%  {background-color: #dede3c;}
+    100% {background-color: #de7a3c;}
+  }
+.links{
+    list-style: none;
+    margin: 0;
+}
+.item{
+    display: inline-block;
+    margin-left: 2.25em;
+    margin-right: 2.25em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.notes{
+    color:white;
+    text-decoration: none;
+}
+.notes:hover{
+    color: white;
+    text-decoration: underline;
+}
+.but:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.but:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<section class = "sec">
+  <h1 class = "online">Online BookStore</h1>
+  <p class = 'platform'>A Platform where students can get access to all the study material for free</p>
+  <button type="Submit" class="start"><a href="{% url 'accounts:signup' %}">Join for Free</a></button>
+</section>
+{% endblock %}

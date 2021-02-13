@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap %}
+{% block content %}
+<div>
+    <form method="GET" class = "filter">
+        {{filter.form|bootstrap}}
+        <br>
+        <button type="Submit" class="search">Search</button>
+    </form>
+    <ul style="list-style: none;">
+        {% for notes in filter.qs %}
+        <li class = "item"> 
+            <button class = "but"><a class = "notes" href="{{ notes.files.url }}" download >{{ notes.name }}</a></button>   
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
