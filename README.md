@@ -1,4 +1,4 @@
-BooksHub
+BooksHub:
 It is a django based website which lets the students to download their study materials for free.
 
 Technologies Used:
